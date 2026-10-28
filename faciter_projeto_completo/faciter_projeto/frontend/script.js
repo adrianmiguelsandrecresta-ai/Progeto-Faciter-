@@ -1,0 +1,1 @@
+const menuToggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');if(menuToggle){menuToggle.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')==='true';menuToggle.setAttribute('aria-expanded',String(!open));nav.classList.toggle('mobile-open',!open);});}

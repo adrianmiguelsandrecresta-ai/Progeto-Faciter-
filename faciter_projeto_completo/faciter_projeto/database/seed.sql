@@ -1,0 +1,2 @@
+-- Dados de exemplo: o cadastro real deve ser feito pela API para gerar o hash da senha.
+-- Depois do cadastro, use POST /imoveis autenticado para inserir imóveis.
